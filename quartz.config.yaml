@@ -87,23 +87,23 @@ plugins:
       renderEngine: katex
     order: 80
   - source: github:quartz-community/citations
-    enabled: false
+    enabled: true
     order: 85
   - source: github:quartz-community/hard-line-breaks
-    enabled: false
+    enabled: true
     order: 90
   - source: github:quartz-community/ox-hugo
-    enabled: false
+    enabled: true
     order: 91
   - source: github:quartz-community/roam
-    enabled: false
+    enabled: true
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
-    enabled: false
+    enabled: true
   - source: github:quartz-community/unlisted-pages
     enabled: true
     options: {}
